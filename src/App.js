@@ -6,6 +6,8 @@ import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Navbar from './pages/Shared/Navbar';
+import ChangePassword from './pages/Home/ChangePassword';
+import ManageProfile from './pages/Home/ManageProfile';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<Signup></Signup>}></Route>
+        <Route path='manageprofile' element={<ManageProfile></ManageProfile>}></Route>
+
       </Routes>
     </div>
   );

@@ -4,7 +4,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import auth from "../../firebase.init";
-import useToken from "../../hook/useToken";
 import "./style.css";
 
 const Signup = () => {
@@ -73,7 +72,7 @@ const Signup = () => {
 
     };
     if (user) {
-        // console.log(user);
+        //console.log(user);
     }
     //Error show
     useEffect(() => {

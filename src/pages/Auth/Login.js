@@ -85,7 +85,9 @@ const Login = () => {
         }
     }, [user]);
 
-
+    // if (user) {
+    //     console.log(user);
+    // }
     //error show in toast
     useEffect(() => {
         const error = hookError || googleError;
