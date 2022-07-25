@@ -12,7 +12,8 @@ const Header = () => {
 
             <div className='nav-link container'>
                 <div className='title'>
-                    <p className='full-site-title'><span className='site-title'>My</span>Book</p>
+                    <p className='full-site-title'><span className='site-title text-warning'>Note</span>Book</p>
+
                 </div>
 
                 <nav className="link-container">
